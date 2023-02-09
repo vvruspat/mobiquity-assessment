@@ -37,7 +37,7 @@ jobs:
     - name: Create artifacts
       uses: actions/upload-pages-artifact@v1.0.7
       with:
-        path: public/
+        path: build/
 
 
   deploy:
