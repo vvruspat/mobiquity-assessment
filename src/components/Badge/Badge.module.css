@@ -1,0 +1,38 @@
+.badge {
+}
+
+.badge_s {
+    border-radius: 4px;
+    padding: var(--padding-tiny) var(--padding-small);
+}
+
+.badge_m {
+    border-radius: 4px;
+    padding: var(--padding-extrasmall) var(--padding-regular);
+}
+
+.badge_l {
+    border-radius: 8px;
+    padding: var(--padding-regular) var(--padding-regular);
+}
+
+.badge_style_primary {
+    background: var(--background-dark-color);
+    color: var(--secondary-color);
+}
+
+.badge_style_secondary {
+    background: var(--background-lightest-color);
+    color: var(--regular-color);
+}
+
+.badge_style_info {
+    background: var(--background-light-color);
+    color: var(--regular-color);
+    text-align: center;
+}
+
+.badge_style_accent {
+    background: var(--accent-color);
+    color: var(--regular-color);
+}

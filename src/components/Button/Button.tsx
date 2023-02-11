@@ -1,20 +1,12 @@
 import cn from "clsx";
-import { ReactNode } from "react";
-
-import "./Button.css";
+import s from "./Button.module.css";
 
 type ButtonProps = React.DetailedHTMLProps<
   React.ButtonHTMLAttributes<HTMLButtonElement>,
   HTMLButtonElement
 > & {
   /** Button style look. */
-  mode?: "primary" | "secondary" | "outline" | "icon";
-  /** Should this button fill out all available width */
-  stretched?: boolean;
-  /** Add something into the button before the text */
-  after?: ReactNode;
-  /** Append something in the button after the text */
-  before?: ReactNode;
+  mode?: "primary" | "outline" | "icon";
 };
 
 /** 
@@ -22,26 +14,16 @@ type ButtonProps = React.DetailedHTMLProps<
  */
 export const Button = ({
   className,
-  stretched = false,
   mode = "primary",
   children,
-  before,
-  after,
   ...buttonProps
 }: ButtonProps) => {
   return (
     <button
-      className={cn(
-        "button",
-        `${mode}-button`,
-        { "stretched-button": stretched },
-        className
-      )}
+      className={cn(s.button, s[`${mode}-button`], className)}
       {...buttonProps}
     >
-      {before && <div className="button-before">{before}</div>}
       {children}
-      {after && <div className="button-after">{after}</div>}
     </button>
   );
 };

@@ -1,0 +1,28 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    gap: var(--padding-medium);
+}
+
+.flag {
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+    gap: var(--padding-small);
+    flex: 1;
+}
+
+.title {
+    color: var(--regular-color);
+}
+
+.team {
+}
+
+.stat {
+}

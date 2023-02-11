@@ -1,0 +1,23 @@
+import { Meta, ColorPalette, ColorItem } from '@storybook/addon-docs';
+import '../index.css';
+
+<Meta title="Colors" />
+
+<ColorPalette>
+  <ColorItem
+    title="Main colors"
+    subtitle=""
+    colors={{ '--accent-color': '#CE2D1E', '--regular-color': '#FFFFFF', '--secondary-color': '#B8B8B8' }}
+  />
+  <ColorItem 
+    title="Backgrounds" 
+    subtitle="" 
+    colors={{ 
+      '--background-color': '#1F2130',
+      '--background-dark-color': 'rgba(0, 0, 0, 0.24)',
+      '--background-light-color': 'rgba(255, 255, 255, 0.04)',
+      '--background-lighter-color': 'rgba(255, 255, 255, 0.08)',
+      '--background-lightest-color': 'rgba(255, 255, 255, 0.12)',
+    }} 
+  />
+</ColorPalette>

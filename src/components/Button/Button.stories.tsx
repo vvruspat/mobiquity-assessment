@@ -14,17 +14,7 @@ const Template: ComponentStory<typeof Button> = (args) => (
 export const Primary = Template.bind({});
 Primary.args = {};
 
-export const Secondary = Template.bind({});
-Secondary.args = {
-  mode: "secondary",
-};
-
 export const Outline = Template.bind({});
 Outline.args = {
   mode: "outline",
-};
-
-export const Stretched = Template.bind({});
-Stretched.args = {
-  stretched: true,
 };

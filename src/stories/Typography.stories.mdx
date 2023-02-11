@@ -1,0 +1,69 @@
+import { Meta, Typeset } from '@storybook/addon-docs/blocks';
+import '../index.css';
+
+<Meta title="Typography" />
+
+export const typography = {
+  type: {
+    primary: 'SF UI Display',
+  },
+  weight: {
+    regular: '400',
+    semibold: '600',
+    bold: '800',
+  },
+  size: {
+    s1: 13,
+    s2: 15,
+    s3: 17,
+    m1: 19,
+  },
+};
+
+export const SampleText = 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.';
+
+# Typography
+
+**Font:** SF UI Display
+
+**Weights:** 400(regular)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.m1),
+  ]}
+  fontWeight={typography.weight.regular}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+**Weights:** 600(semibold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.m1),
+  ]}
+  fontWeight={typography.weight.semibold}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>
+
+**Weights:** 800(bold)
+
+<Typeset
+  fontSizes={[
+    Number(typography.size.s1),
+    Number(typography.size.s2),
+    Number(typography.size.s3),
+    Number(typography.size.m1),
+  ]}
+  fontWeight={typography.weight.bold}
+  sampleText={SampleText}
+  fontFamily={typography.type.primary}
+/>

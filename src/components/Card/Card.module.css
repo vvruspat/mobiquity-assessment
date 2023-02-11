@@ -1,0 +1,26 @@
+.card {
+    border-radius: 12px;
+    background: var(--background-lighter-color);
+}
+
+.card.card_accent {
+    background: var(--background-accent-color);
+}
+
+.header {
+    padding: var(--padding-regular) var(--padding-large);
+    color: var(--regular-color);
+    background: var(--background-dark-color);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    text-transform: uppercase;
+}
+
+.card.card_accent .header {
+    color: var(--regular-color);
+    background: var(--accent-color);
+}
+
+.content {
+    padding: var(--padding-large);
+}

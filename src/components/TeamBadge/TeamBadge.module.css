@@ -1,0 +1,5 @@
+.team {
+    text-transform: uppercase;
+    color: var(--secondary-color);
+    letter-spacing: 2px;
+}

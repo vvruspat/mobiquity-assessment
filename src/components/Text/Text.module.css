@@ -1,0 +1,31 @@
+.size_s {
+    font-size: var(--font-size-s);
+}
+
+.size_m {
+    font-size: var(--font-size-m);
+}
+
+.size_l {
+    font-size: var(--font-size-l);
+}
+
+.size_xl {
+    font-size: var(--font-size-xl);
+}
+
+.size_xxl {
+    font-size: var(--font-size-xxl);
+}
+
+.regular {
+    font-weight: var(--font-weight-regular);
+}
+
+.semibold {
+    font-weight: var(--font-weight-semibold);
+}
+
+.bold {
+    font-weight: var(--font-weight-bold);
+}
