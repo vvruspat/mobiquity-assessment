@@ -1,21 +1,26 @@
 .size_s {
     font-size: var(--font-size-s);
+    line-height: var(--line-height-s);
 }
 
 .size_m {
     font-size: var(--font-size-m);
+    line-height: var(--line-height-m);
 }
 
 .size_l {
     font-size: var(--font-size-l);
+    line-height: var(--line-height-l);
 }
 
 .size_xl {
     font-size: var(--font-size-xl);
+    line-height: var(--line-height-xl);
 }
 
 .size_xxl {
     font-size: var(--font-size-xxl);
+    line-height: var(--line-height-xxl);
 }
 
 .regular {

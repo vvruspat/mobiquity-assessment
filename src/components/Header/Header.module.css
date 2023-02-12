@@ -3,9 +3,9 @@
     flex-direction: column;
     justify-content: space-between;
     padding: var(--padding-large) 0;
-    padding-top: 52px;
+    padding-top: 24px;
     box-sizing: border-box;
-    height: 152px;
+    height: 124px;
     background: linear-gradient(81.12deg, #CE2D1E 3.34%, #4A1E1E 98.84%);
     border-bottom-left-radius: var(--padding-large);
     border-bottom-right-radius: var(--padding-large);

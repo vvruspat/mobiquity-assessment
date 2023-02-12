@@ -9,18 +9,19 @@
     border-radius: 30px;
     cursor: pointer;
     transition: all 0.1s ease-in;
+    font-size: var(--font-size-l);
   }
   
   .primary-button {
-    background-color: var(--regular-color);
-    color: var(--regular-inverted-color);
-    border: 1px solid var(--regular-color);
+    background-color: var(--regular-color-static);
+    color: var(--regular-inverted-color-static);
+    border: 1px solid var(--regular-color-static);
   }
   
   .outline-button {
     background-color: transparent;
-    color: var(--regular-color);
-    border: 1px solid var(--regular-color);
+    color: var(--regular-color-static);
+    border: 1px solid var(--regular-color-static);
     font-weight: 500;
   }
   

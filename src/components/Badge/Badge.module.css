@@ -1,6 +1,3 @@
-.badge {
-}
-
 .badge_s {
     border-radius: 4px;
     padding: var(--padding-tiny) var(--padding-small);
@@ -23,7 +20,7 @@
 
 .badge_style_secondary {
     background: var(--background-lightest-color);
-    color: var(--regular-color);
+    color: var(--regular-color-static);
 }
 
 .badge_style_info {
@@ -33,7 +30,7 @@
 
 .badge_style_accent {
     background: var(--accent-color);
-    color: var(--regular-color);
+    color: var(--regular-color-static);
 }
 
 .badge_align_left {

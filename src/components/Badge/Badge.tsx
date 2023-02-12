@@ -1,9 +1,17 @@
-import { FC, PropsWithChildren } from "react";
+import {
+  DetailedHTMLProps,
+  FC,
+  HTMLAttributes,
+  PropsWithChildren,
+} from "react";
 import cn from "clsx";
 
 import s from "./Badge.module.css";
 
-type BadgeProps = {
+type BadgeProps = DetailedHTMLProps<
+  HTMLAttributes<HTMLDivElement>,
+  HTMLDivElement
+> & {
   /** Badge size affects the badge look */
   size?: "s" | "m" | "l";
   /** Text align */
@@ -19,6 +27,7 @@ export const Badge: FC<PropsWithChildren<BadgeProps>> = ({
   size = "s",
   badgeStyle = "",
   align = "center",
+  className,
   children,
 }) => {
   return (
@@ -27,7 +36,8 @@ export const Badge: FC<PropsWithChildren<BadgeProps>> = ({
         s.badge,
         s[`badge_${size}`],
         s[`badge_style_${badgeStyle}`],
-        s[`badge_align_${align}`]
+        s[`badge_align_${align}`],
+        className
       )}
     >
       {children}

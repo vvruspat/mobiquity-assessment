@@ -79,3 +79,8 @@
     gap: 0;
     justify-content: center;
 }
+
+.round_badge {
+    display: flex;
+    align-items: center;
+}

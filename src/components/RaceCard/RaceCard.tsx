@@ -13,23 +13,11 @@ import { Title } from "../Title";
 
 import s from "./RaceCard.module.css";
 import { ReactComponent as ArrowIcon } from "./assets/arrow.svg";
+import { RaceWinner } from "../../types/winner";
 
 type RaceCardProps = {
   isAccent: boolean;
-
-  round: number;
-  date: string;
-  raceTitle: string;
-  country: string;
-  circuit: string;
-  driver: string;
-  nationality: string;
-  team: string;
-
-  time: string;
-  speed: string;
-  points: number;
-};
+} & RaceWinner;
 
 /**
  * RaceCard component
@@ -40,7 +28,6 @@ export const RaceCard: FC<PropsWithChildren<RaceCardProps>> = ({
   round,
   date,
   raceTitle,
-  country,
   circuit,
   driver,
   nationality,
@@ -61,7 +48,11 @@ export const RaceCard: FC<PropsWithChildren<RaceCardProps>> = ({
       <header className={s.header}>
         <div className={s.header_info}>
           <div className={s.round}>
-            <Badge size="s" badgeStyle={isAccent ? "accent" : "secondary"}>
+            <Badge
+              size="s"
+              badgeStyle={isAccent ? "accent" : "secondary"}
+              className={s.round_badge}
+            >
               <Text size="s">Round {round}</Text>
               <span className={s.v_separator}>|</span>
               <Text size="s">

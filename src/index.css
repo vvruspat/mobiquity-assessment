@@ -11,9 +11,11 @@ body {
 :root {
   /** Colors */
   --accent-color: #CE2D1E;
-  --regular-color: #FFFFFF;
-  --regular-inverted-color: #000000;
-  --secondary-color: #B8B8B8;
+  --regular-color: #F7F7F7;
+  --regular-color-static: #F7F7F7;
+  --regular-inverted-color: #1F2130;
+  --regular-inverted-color-static: #1F2130;
+  --secondary-color: #A0A0A0;
 
   --background-body-color: #040404;
   --background-color: #1F2130;
@@ -32,6 +34,13 @@ body {
   --font-size-xl: 19px;
   --font-size-xxl: 21px;
 
+  /** Line height */
+  --line-height-s: 16px;
+  --line-height-m: 18px;
+  --line-height-l: 20px;
+  --line-height-xl: 23px;
+  --line-height-xxl: 25px;
+
   /** Font weight */
   --font-weight-regular: 400;
   --font-weight-semibold: 600;
@@ -44,4 +53,21 @@ body {
   --padding-small: 6px;
   --padding-extrasmall: 4px;
   --padding-tiny: 2px;
+}
+
+[data-theme='light'] {
+  --accent-color: #CE2D1E;
+  --regular-color: #333333;
+  --regular-inverted-color: #ffffff;
+  --secondary-color: #666666;
+
+  --background-body-color: #E0E0E0;
+  --background-color: #F3F3F3;
+
+  --background-dark-color: rgba(255, 255, 255, 0.4);
+  --background-light-color: rgba(0, 0, 0, 0.04);
+  --background-lighter-color: rgba(0, 0, 0, 0.08);
+  --background-lightest-color: rgba(0, 0, 0, 0.12);
+
+  --background-accent-color: rgba(206, 45, 30, 0.24);
 }
