@@ -29,10 +29,21 @@
 .badge_style_info {
     background: var(--background-light-color);
     color: var(--regular-color);
-    text-align: center;
 }
 
 .badge_style_accent {
     background: var(--accent-color);
     color: var(--regular-color);
+}
+
+.badge_align_left {
+    text-align: left;
+}
+
+.badge_align_right {
+    text-align: right;
+}
+
+.badge_align_center {
+    text-align: center;
 }

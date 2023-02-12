@@ -15,7 +15,7 @@ type WinnerCardProps = Winner;
  */
 export const WinnerCard: FC<PropsWithChildren<WinnerCardProps>> = ({
   year,
-  name,
+  driver,
   points,
   team,
   nationality,
@@ -29,7 +29,7 @@ export const WinnerCard: FC<PropsWithChildren<WinnerCardProps>> = ({
         <div className={s.info}>
           <div className={s.title}>
             <Text size="xxl" weight="semibold">
-              {name}
+              {driver}
             </Text>
           </div>
           <div className={s.team}>

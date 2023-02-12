@@ -1,0 +1,10 @@
+.loading {
+    padding: var(--padding-large);
+}
+
+.loadingIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--regular-color);
+}

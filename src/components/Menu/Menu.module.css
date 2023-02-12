@@ -10,6 +10,9 @@
     flex-direction: row;
     align-items: center;
     gap: var(--padding-regular);
+
+    box-sizing: border-box;
+    padding: 0 var(--padding-large);
 }
 
 .menu::-webkit-scrollbar {

@@ -14,4 +14,8 @@ const Template: ComponentStory<typeof Badge> = (args) => (
 
 export const BadgeTemplate = Template.bind({});
 
-BadgeTemplate.args = {};
+BadgeTemplate.args = {
+  align: "center",
+  size: "s",
+  badgeStyle: "secondary",
+};

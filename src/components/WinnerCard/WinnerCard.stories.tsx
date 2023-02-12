@@ -15,8 +15,8 @@ const Template: ComponentStory<typeof WinnerCard> = (args) => (
 export const CardTemplate = Template.bind({});
 
 CardTemplate.args = {
-  year: 2022,
-  name: "Charles Leclerc",
+  year: "2022",
+  driver: "Charles Leclerc",
   points: 256,
   team: "RED BULL",
   nationality: "Spanish",

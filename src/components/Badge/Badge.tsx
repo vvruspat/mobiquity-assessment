@@ -6,6 +6,9 @@ import s from "./Badge.module.css";
 type BadgeProps = {
   /** Badge size affects the badge look */
   size?: "s" | "m" | "l";
+  /** Text align */
+  align?: "left" | "center" | "right";
+  /** Badge style */
   badgeStyle?: "primary" | "secondary" | "info" | "accent";
 };
 
@@ -15,6 +18,7 @@ type BadgeProps = {
 export const Badge: FC<PropsWithChildren<BadgeProps>> = ({
   size = "s",
   badgeStyle = "",
+  align = "center",
   children,
 }) => {
   return (
@@ -22,7 +26,8 @@ export const Badge: FC<PropsWithChildren<BadgeProps>> = ({
       className={cn(
         s.badge,
         s[`badge_${size}`],
-        s[`badge_style_${badgeStyle}`]
+        s[`badge_style_${badgeStyle}`],
+        s[`badge_align_${align}`]
       )}
     >
       {children}

@@ -12,4 +12,8 @@ const Template: ComponentStory<typeof Flag> = (args) => <Flag {...args} />;
 
 export const FlagTemplate = Template.bind({});
 
-FlagTemplate.args = {};
+FlagTemplate.args = {
+  size: "l",
+  country: "Spain",
+  nationality: "Spanish",
+};

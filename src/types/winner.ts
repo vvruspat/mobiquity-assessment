@@ -1,7 +1,19 @@
 export type Winner = {
-  year: number;
-  name: string;
+  year: string;
+  driver: string;
   points: number;
   team: string;
   nationality: string;
+};
+
+export type RaceWinner = Omit<Winner, "year"> & {
+  round: number;
+  date: string;
+  raceTitle: string;
+  country: string;
+  circuit: string;
+  nationality: string;
+
+  time: string;
+  speed: string;
 };

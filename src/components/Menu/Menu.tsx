@@ -1,9 +1,9 @@
-import { FC, PropsWithChildren, useCallback, useState } from "react";
+import { FC, PropsWithChildren, useCallback, useEffect, useState } from "react";
 import { Button } from "../Button";
 
 import s from "./Menu.module.css";
 
-type MenuItemOption = {
+export type MenuItemOption = {
   /** Key to identify option */
   key: string;
   /** Value to show */
@@ -13,6 +13,8 @@ type MenuItemOption = {
 type MenuProps = {
   /** Menu options */
   options: MenuItemOption[];
+  /** Allow to select item from outside */
+  selectedIndex?: number;
   /** Callback when item has been selected */
   onSelect?: (selectedItem: MenuItemOption) => void;
 };
@@ -22,9 +24,10 @@ type MenuProps = {
  */
 export const Menu: FC<PropsWithChildren<MenuProps>> = ({
   options,
+  selectedIndex = 0,
   onSelect,
 }) => {
-  const [selectedKey, setSelectedKey] = useState(options[0]?.key);
+  const [selectedKey, setSelectedKey] = useState(options[selectedIndex]?.key);
   const onMenuItemClick = useCallback(
     (selectedItem: MenuItemOption) => {
       onSelect?.(selectedItem);
@@ -32,6 +35,12 @@ export const Menu: FC<PropsWithChildren<MenuProps>> = ({
     },
     [onSelect]
   );
+
+  useEffect(() => {
+    if (options[selectedIndex]) {
+      setSelectedKey(options[selectedIndex].key);
+    }
+  }, [selectedIndex, options]);
 
   return (
     <div className={s.menu} dir="ltr">

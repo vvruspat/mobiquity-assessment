@@ -5,6 +5,7 @@ body {
   font-family: 'SF UI Display', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: var(--background-body-color);
 }
 
 :root {
@@ -14,9 +15,10 @@ body {
   --regular-inverted-color: #000000;
   --secondary-color: #B8B8B8;
 
+  --background-body-color: #040404;
   --background-color: #1F2130;
 
-  --background-dark-color: rgba(0, 0, 0, 0.24);
+  --background-dark-color: rgba(0, 0, 0, 0.4);
   --background-light-color: rgba(255, 255, 255, 0.04);
   --background-lighter-color: rgba(255, 255, 255, 0.08);
   --background-lightest-color: rgba(255, 255, 255, 0.12);

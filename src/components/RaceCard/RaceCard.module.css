@@ -1,0 +1,81 @@
+.content {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    gap: var(--padding-medium);
+    margin-top: 0;
+    transition: all 0.1s;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: stretch;
+    align-items: flex-start;
+    gap: var(--padding-small);
+    flex: 1;
+}
+
+.stat {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: var(--padding-medium);
+}
+
+.round {
+    display: inline-block;
+}
+
+.v_separator {
+    margin: 0 var(--padding-regular);
+    color: var(--background-dark-color);
+}
+
+.driver {
+    color: var(--regular-color);
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: stretch;
+    gap: var(--padding-medium);
+
+    margin-top: var(--padding-large);
+}
+
+.footer > div {
+    flex: 1;
+}
+
+.hidden {
+    transition: all 0.1s;
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.shown {
+    transition: all 0.1s;
+}
+
+.content_collapsed {
+    transition: all 0.1s;
+    margin-top: var(--padding-regular);
+}
+
+.info_collapsed {
+    transition: all 0.1s;
+    gap: 0;
+    justify-content: center;
+}

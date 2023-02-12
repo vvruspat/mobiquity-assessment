@@ -24,12 +24,18 @@
     font-weight: 500;
   }
   
-  /* .icon-button {
-    background-color: var(--background);
-    color: var(--text);
+  .icon-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--background-light-color);
+    color: var(--regular-color);
     border: 0 none;
     font-weight: 500;
-  } */
+    width: 40px;
+    height: 40px;
+    padding: var(--padding-medium);
+  }
   
   .button:hover {
     opacity: 0.9;
@@ -38,5 +44,15 @@
 
   .button:active {
     opacity: 0.8;
+    transition: all 0.1s ease-in;
+  }
+
+  .icon-button:hover {
+    background-color: var(--background-lighter-color);
+    transition: all 0.1s ease-in;
+  }
+
+  .toggle {
+    transform: rotate(180deg);
     transition: all 0.1s ease-in;
   }
