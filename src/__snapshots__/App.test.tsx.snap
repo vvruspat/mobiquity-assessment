@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders learn react link 1`] = `
+<div
+  class="App"
+  data-testid="app-container"
+>
+  <div
+    class="page"
+  >
+    <header
+      class="header"
+    >
+      <div
+        class="header_content"
+      >
+        <svg>
+          logo.svg
+        </svg>
+      </div>
+      <div
+        class="menu"
+        dir="ltr"
+      />
+    </header>
+    <section
+      class="content"
+    />
+  </div>
+</div>
+`;

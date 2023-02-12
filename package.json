@@ -16,6 +16,7 @@
     "react-animated-list": "^0.1.4",
     "react-dom": "^18.2.0",
     "react-scripts": "5.0.1",
+    "ts-jest": "^29.0.5",
     "typescript": "^4.9.5",
     "web-vitals": "^2.1.4",
     "workbox-background-sync": "^6.5.4",
@@ -35,7 +36,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "react-scripts test --transformIgnorePatterns \"node_modules/(?!@react-animated-list)/\"",
     "eject": "react-scripts eject",
     "storybook": "start-storybook -p 6006 -s public",
     "build-storybook": "build-storybook -s public -o build/storybook"
