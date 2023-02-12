@@ -1,6 +1,6 @@
 import { SeasonResultsResponse, SeasonsResponse } from "../types/seasons";
 
-const API_SERVER = "http://ergast.com/api/f1";
+const API_SERVER = "https://ergast.com/api/f1";
 
 // Make request with response type
 const request = <T>(url: string): Promise<T> => {
