@@ -20,10 +20,13 @@ In case you want run this project on your localhost clone this repo
 git clone https://github.com/vvruspat/mobiquity-assessment.git
 ```
 go to the project's root dir, install deps and just start it
-### Run
+### Install
 ```
 cd mobiquity-assessment
 npm install
+```
+### Run
+```
 npm start
 ```
 ### Test
