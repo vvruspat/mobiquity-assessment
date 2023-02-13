@@ -8,6 +8,12 @@ https://vvruspat.github.io/mobiquity-assessment/
 UI Kit Storybook
 https://vvruspat.github.io/mobiquity-assessment/storybook/?path=/docs/components-error--error-template
 
+Design
+https://www.figma.com/file/URcPwoXvRa92mc2HKLN6mL/F1-Design?node-id=0%3A1&t=TDpRvhtA7I0hPDQG-1
+
+Docs
+https://github.com/vvruspat/mobiquity-assessment/wiki
+
 In case you want run this project on your localhost clone this repo
 ```
 git clone https://github.com/vvruspat/mobiquity-assessment.git
