@@ -33,7 +33,7 @@ npm start
 ```
 npm run test
 ```
-### Local storybook
+### Run storybook
 ```
 npm run storybook
 ```
