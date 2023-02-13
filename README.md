@@ -1,18 +1,19 @@
 # Mobiquity assessment
 
-## How to run project
-
 You can test this project on github pages 
+### Demo
 https://vvruspat.github.io/mobiquity-assessment/
 
-UI Kit Storybook
+### UI Kit Storybook
 https://vvruspat.github.io/mobiquity-assessment/storybook/?path=/docs/components-error--error-template
 
-Design
+### Design
 https://www.figma.com/file/URcPwoXvRa92mc2HKLN6mL/F1-Design?node-id=0%3A1&t=TDpRvhtA7I0hPDQG-1
 
-Docs
+### Docs
 https://github.com/vvruspat/mobiquity-assessment/wiki
+
+## How to run project
 
 In case you want run this project on your localhost clone this repo
 ```
