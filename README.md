@@ -14,13 +14,14 @@ https://www.figma.com/file/URcPwoXvRa92mc2HKLN6mL/F1-Design?node-id=0%3A1&t=TDpR
 https://github.com/vvruspat/mobiquity-assessment/wiki
 
 ## How to run project
+### Install
 
 In case you want run this project on your localhost clone this repo
 ```
 git clone https://github.com/vvruspat/mobiquity-assessment.git
 ```
 go to the project's root dir, install deps and just start it
-### Install
+
 ```
 cd mobiquity-assessment
 npm install
