@@ -2,9 +2,9 @@ import { FC, PropsWithChildren } from "react";
 
 import s from "./WinnerCard.module.css";
 import { Winner } from "../../types/winner";
-import { Card } from "../Card";
-import { Text } from "../Text";
-import { Flag } from "../Flag";
+import { Card } from "../UIKit/Card";
+import { Text } from "../UIKit/Text";
+import { Flag } from "../UIKit/Flag";
 import { PointsBadge } from "../PointsBadge";
 import { TeamBadge } from "../TeamBadge";
 

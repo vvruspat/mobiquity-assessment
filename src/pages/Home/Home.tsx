@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import { fetchSeasonResults } from "../../api/Api";
-import { Header } from "../../components/Header";
+import { Header } from "../../components/UIKit/Header";
 import { RacesList } from "../../components/RacesList";
 import { WinnerCard } from "../../components/WinnerCard";
 import { useSeasonsStore } from "../../stores/seasons";
 import { useSeasonResultsStore } from "../../stores/seasonResults";
 import { EFetchStatus } from "../../types/fetchStatus";
 import { Error } from "../../components/Error";
-import { Loading } from "../../components/Loading";
-import { Text } from "../../components/Text";
+import { Loading } from "../../components/UIKit/Loading";
+import { Text } from "../../components/UIKit/Text";
 
 import s from "./Home.module.css";
 

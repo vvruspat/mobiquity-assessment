@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { Title } from "./Title";
-import "../../index.css";
+import "../../../index.css";
 
 export default {
   title: "UI Kit/Typography/Title",

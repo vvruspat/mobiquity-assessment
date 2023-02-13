@@ -1,7 +1,7 @@
 import { FC, PropsWithChildren } from "react";
 
-import { Card } from "../Card";
-import { Text } from "../Text";
+import { Card } from "../UIKit/Card";
+import { Text } from "../UIKit/Text";
 
 import s from "./Error.module.css";
 

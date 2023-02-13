@@ -1,6 +1,6 @@
-import { Badge } from "../Badge";
-import { Caption } from "../Caption";
-import { Text } from "../Text";
+import { Badge } from "../UIKit/Badge";
+import { Caption } from "../UIKit/Caption";
+import { Text } from "../UIKit/Text";
 
 type InfoBadgeProps = {
   title: string;

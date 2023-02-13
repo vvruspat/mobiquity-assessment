@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { Separator } from "./Separator";
-import "../../index.css";
+import "../../../index.css";
 
 export default {
   title: "UI Kit/Separator",
@@ -10,4 +10,4 @@ export default {
 
 const Template: ComponentStory<typeof Separator> = () => <Separator />;
 
-export const InfoBadgeTemplate = Template.bind({});
+export const SeparatorTemplate = Template.bind({});

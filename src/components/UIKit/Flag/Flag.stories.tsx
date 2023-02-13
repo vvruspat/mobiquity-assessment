@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { Flag } from "./Flag";
-import "../../index.css";
+import "../../../index.css";
 
 export default {
   title: "UI Kit/Flag",

@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { Button } from "./Button";
-import { ReactComponent as ArrowIcon } from "../RaceCard/assets/arrow.svg";
+import { ReactComponent as ArrowIcon } from "../../RaceCard/assets/arrow.svg";
 
 export default {
   title: "UI Kit/Button",

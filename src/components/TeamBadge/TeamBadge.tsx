@@ -1,5 +1,5 @@
-import { Badge } from "../Badge";
-import { Text } from "../Text";
+import { Badge } from "../UIKit/Badge";
+import { Text } from "../UIKit/Text";
 import s from "./TeamBadge.module.css";
 
 type TeamBadgeProps = {

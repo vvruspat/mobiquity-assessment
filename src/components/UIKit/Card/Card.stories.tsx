@@ -1,7 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 
 import { Card } from "./Card";
-import "../../index.css";
+import "../../../index.css";
 
 export default {
   title: "UI Kit/Card",

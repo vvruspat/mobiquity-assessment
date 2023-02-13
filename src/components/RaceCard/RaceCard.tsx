@@ -1,15 +1,15 @@
 import { FC, PropsWithChildren, useCallback, useState } from "react";
 import cn from "clsx";
-import { Card } from "../Card";
-import { Text } from "../Text";
-import { Flag } from "../Flag";
-import { Badge } from "../Badge";
+import { Card } from "../UIKit/Card";
+import { Text } from "../UIKit/Text";
+import { Flag } from "../UIKit/Flag";
+import { Badge } from "../UIKit/Badge";
 import { TeamBadge } from "../TeamBadge";
-import { Separator } from "../Separator";
-import { Caption } from "../Caption";
+import { Separator } from "../UIKit/Separator";
+import { Caption } from "../UIKit/Caption";
 import { InfoBadge } from "../InfoBadge";
-import { Button } from "../Button";
-import { Title } from "../Title";
+import { Button } from "../UIKit/Button";
+import { Title } from "../UIKit/Title";
 
 import s from "./RaceCard.module.css";
 import { ReactComponent as ArrowIcon } from "./assets/arrow.svg";

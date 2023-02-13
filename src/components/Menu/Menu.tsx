@@ -1,5 +1,5 @@
 import { FC, PropsWithChildren, useCallback, useEffect, useState } from "react";
-import { Button } from "../Button";
+import { Button } from "../UIKit/Button";
 
 import s from "./Menu.module.css";
 

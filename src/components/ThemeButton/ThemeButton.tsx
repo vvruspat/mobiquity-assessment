@@ -1,5 +1,5 @@
 import { useCallback, useEffect, useState } from "react";
-import { Button } from "../Button";
+import { Button } from "../UIKit/Button";
 import { ReactComponent as LightIcon } from "./assets/light.svg";
 import { ReactComponent as DarkIcon } from "./assets/dark.svg";
 import s from "./ThemeButton.module.css";
