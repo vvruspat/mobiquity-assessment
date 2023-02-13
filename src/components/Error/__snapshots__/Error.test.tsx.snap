@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders error 1`] = `
+<section
+  class="card card_accent"
+  data-testid="card"
+>
+  <header
+    class="header"
+  >
+    <span
+      class="text size_m regular"
+      data-testid="text"
+    >
+      Error
+    </span>
+  </header>
+  <div
+    class="content"
+  >
+    <div
+      class="error_text"
+    >
+      Message
+    </div>
+  </div>
+</section>
+`;

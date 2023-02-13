@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`button click 1`] = `
+<button
+  class="button primary-button"
+  data-testid="button"
+>
+  Test button
+</button>
+`;
+
+exports[`renders button 1`] = `
+<button
+  class="button primary-button"
+  data-testid="button"
+>
+  Test button
+</button>
+`;
+
+exports[`renders button icon 1`] = `
+<button
+  class="button icon-button"
+  data-testid="button"
+>
+  X
+</button>
+`;
+
+exports[`renders button outline 1`] = `
+<button
+  class="button outline-button"
+  data-testid="button"
+>
+  Test outline button
+</button>
+`;

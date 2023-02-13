@@ -1,0 +1,91 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders badge 1`] = `
+<div
+  class="badge badge_s badge_align_center"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;
+
+exports[`renders badge accent 1`] = `
+<div
+  class="badge badge_s badge_style_accent badge_align_center"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;
+
+exports[`renders badge align 1`] = `
+<div
+  class="badge badge_s badge_align_center"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;
+
+exports[`renders badge align left 1`] = `
+<div
+  class="badge badge_s badge_align_left"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;
+
+exports[`renders badge align right 1`] = `
+<div
+  class="badge badge_s badge_align_right"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;
+
+exports[`renders badge info 1`] = `
+<div
+  class="badge badge_s badge_style_info badge_align_center"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;
+
+exports[`renders badge primary 1`] = `
+<div
+  class="badge badge_s badge_style_primary badge_align_center"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;
+
+exports[`renders badge secondary 1`] = `
+<div
+  class="badge badge_s badge_style_secondary badge_align_center"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;
+
+exports[`renders badge size "l" 1`] = `
+<div
+  class="badge badge_l badge_align_center"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;
+
+exports[`renders badge size "m" 1`] = `
+<div
+  class="badge badge_m badge_align_center"
+  data-testid="badge"
+>
+  Test badge
+</div>
+`;

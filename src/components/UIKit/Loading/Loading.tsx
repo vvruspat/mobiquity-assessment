@@ -22,7 +22,11 @@ export const Loading: FC<PropsWithChildren<LoadingProps>> = ({
   ...htmlProps
 }) => {
   return (
-    <div className={cn(s.loading, className)} {...htmlProps}>
+    <div
+      className={cn(s.loading, className)}
+      {...htmlProps}
+      data-testid="loading"
+    >
       <div className={s.loadingIcon}>
         <LoadingIcon />
       </div>

@@ -9,14 +9,14 @@ import {
 } from "react";
 import cn from "clsx";
 
-import { Menu, MenuItemOption } from "../../Menu";
-import { useSeasonsStore } from "../../../stores/seasons";
-import { fetchSeasons } from "../../../api/Api";
+import { Menu, MenuItemOption } from "../Menu";
+import { useSeasonsStore } from "../../stores/seasons";
+import { fetchSeasons } from "../../api/Api";
 
 import { ReactComponent as LogoIcon } from "./assets/logo.svg";
 
 import s from "./Header.module.css";
-import { ThemeButton } from "../../ThemeButton";
+import { ThemeButton } from "../ThemeButton";
 
 type HeaderProps = DetailedHTMLProps<
   HTMLAttributes<HTMLDivElement>,
@@ -68,7 +68,11 @@ export const Header: FC<PropsWithChildren<HeaderProps>> = ({
   );
 
   return (
-    <header className={cn(s.header, className)} {...htmlProps}>
+    <header
+      className={cn(s.header, className)}
+      {...htmlProps}
+      data-testid="header"
+    >
       <div className={s.header_content}>
         <LogoIcon />
         <ThemeButton />

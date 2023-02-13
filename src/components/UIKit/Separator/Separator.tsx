@@ -9,5 +9,11 @@ type SeparatorProps = DetailedHTMLProps<
 >;
 
 export const Separator = ({ className, ...htmlProps }: SeparatorProps) => {
-  return <hr className={cn(s.separator, className)} {...htmlProps} />;
+  return (
+    <hr
+      className={cn(s.separator, className)}
+      {...htmlProps}
+      data-testid="separator"
+    />
+  );
 };

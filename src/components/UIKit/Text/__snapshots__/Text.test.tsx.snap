@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders text 1`] = `
+<span
+  class="text size_m regular"
+  data-testid="text"
+>
+  Test text
+</span>
+`;
+
+exports[`renders text bold 1`] = `
+<span
+  class="text size_m bold"
+  data-testid="text"
+>
+  Test text
+</span>
+`;
+
+exports[`renders text semibold 1`] = `
+<span
+  class="text size_m semibold"
+  data-testid="text"
+>
+  Test text
+</span>
+`;
+
+exports[`renders text size l 1`] = `
+<span
+  class="text size_l regular"
+  data-testid="text"
+>
+  Test text
+</span>
+`;
+
+exports[`renders text size s 1`] = `
+<span
+  class="text size_s regular"
+  data-testid="text"
+>
+  Test text
+</span>
+`;
+
+exports[`renders text size xl 1`] = `
+<span
+  class="text size_xl regular"
+  data-testid="text"
+>
+  Test text
+</span>
+`;
+
+exports[`renders text size xxl 1`] = `
+<span
+  class="text size_xxl regular"
+  data-testid="text"
+>
+  Test text
+</span>
+`;

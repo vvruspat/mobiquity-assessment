@@ -1,6 +1,6 @@
 export type LocationPos = {
-  lat: number;
-  long: number;
+  lat: string;
+  long: string;
   locality: string;
   country: string;
 };

@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders theme button 1`] = `
+<button
+  class="button icon-button theme_button"
+  data-testid="button"
+>
+  <svg>
+    dark.svg
+  </svg>
+</button>
+`;

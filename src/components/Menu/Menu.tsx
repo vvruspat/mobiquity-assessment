@@ -43,7 +43,7 @@ export const Menu: FC<PropsWithChildren<MenuProps>> = ({
   }, [selectedIndex, options]);
 
   return (
-    <div className={s.menu} dir="ltr">
+    <div className={s.menu} dir="ltr" data-testid="menu">
       {options.map((option) => {
         return (
           <Button

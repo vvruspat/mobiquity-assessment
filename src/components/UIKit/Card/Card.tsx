@@ -39,6 +39,7 @@ export const Card: FC<PropsWithChildren<CardProps>> = ({
         className
       )}
       {...htmlProps}
+      data-testid="card"
     >
       {header && <header className={s.header}>{header}</header>}
       <div className={s.content}>{children}</div>

@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders card 1`] = `
+<section
+  class="card"
+  data-testid="card"
+>
+  <div
+    class="content"
+  >
+    Test card
+  </div>
+</section>
+`;
+
+exports[`renders card accent 1`] = `
+<section
+  class="card card_accent"
+  data-testid="card"
+>
+  <div
+    class="content"
+  >
+    Test card
+  </div>
+</section>
+`;
+
+exports[`renders card header 1`] = `
+<section
+  class="card"
+  data-testid="card"
+>
+  <header
+    class="header"
+  >
+    Title
+  </header>
+  <div
+    class="content"
+  >
+    Test card
+  </div>
+</section>
+`;

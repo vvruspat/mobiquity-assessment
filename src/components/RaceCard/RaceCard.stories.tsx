@@ -15,7 +15,7 @@ const Template: ComponentStory<typeof RaceCard> = (args) => (
 export const RaceCardTemplate = Template.bind({});
 
 RaceCardTemplate.args = {
-  round: 2,
+  round: "2",
   date: "1979-10-17",
   raceTitle: "Spanish Grand Prix",
   country: "Spain",

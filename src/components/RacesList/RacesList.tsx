@@ -12,7 +12,7 @@ type RacesListProps = {
 /** List of races winners */
 export const RacesList = ({ winners, winner }: RacesListProps) => {
   return (
-    <div className={s.list}>
+    <div className={s.list} data-testid="races-list">
       <AnimatedList animation="grow" initialAnimationDuration={5000}>
         {winners.map((currentWinner) => (
           <RaceCard

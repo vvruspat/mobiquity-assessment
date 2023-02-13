@@ -26,6 +26,9 @@ export const Flag: FC<FlagProps> = ({ size = "s", country, nationality }) => {
   }, [country, getCountryByName, getCountryByNationality, nationality]);
 
   return (
-    <div className={cn(s.flag, s[`flag_${size}`], "fi", `fi-${code}`)}></div>
+    <div
+      className={cn(s.flag, s[`flag_${size}`], "fi", `fi-${code}`)}
+      data-testid="flag"
+    ></div>
   );
 };

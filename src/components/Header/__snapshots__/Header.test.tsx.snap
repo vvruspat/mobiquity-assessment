@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders header 1`] = `
+<header
+  class="header"
+  data-testid="header"
+>
+  <div
+    class="header_content"
+  >
+    <svg>
+      logo.svg
+    </svg>
+    <button
+      class="button icon-button theme_button"
+      data-testid="button"
+    >
+      <svg>
+        dark.svg
+      </svg>
+    </button>
+  </div>
+  <div
+    class="menu"
+    data-testid="menu"
+    dir="ltr"
+  />
+</header>
+`;

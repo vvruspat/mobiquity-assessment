@@ -35,10 +35,11 @@ export const Badge: FC<PropsWithChildren<BadgeProps>> = ({
       className={cn(
         s.badge,
         s[`badge_${size}`],
-        s[`badge_style_${badgeStyle}`],
+        { [s[`badge_style_${badgeStyle}`]]: badgeStyle },
         s[`badge_align_${align}`],
         className
       )}
+      data-testid="badge"
     >
       {children}
     </div>

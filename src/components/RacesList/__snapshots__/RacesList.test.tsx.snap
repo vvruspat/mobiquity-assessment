@@ -1,0 +1,441 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders races list 1`] = `
+<div
+  class="list"
+  data-testid="races-list"
+>
+  <div
+    style="opacity: 1; transform: scale(1, 1); transition: opacity 2500ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 1665ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <section
+      class="card card_accent"
+      data-testid="card"
+    >
+      <div
+        class="content"
+      >
+        <header
+          class="header"
+        >
+          <div
+            class="header_info"
+          >
+            <div
+              class="round"
+            >
+              <div
+                class="badge badge_s badge_style_accent badge_align_center round_badge"
+                data-testid="badge"
+              >
+                <span
+                  class="text size_s regular"
+                  data-testid="text"
+                >
+                  Round 
+                  1
+                </span>
+                <span
+                  class="v_separator"
+                >
+                  |
+                </span>
+                <span
+                  class="text size_s regular"
+                  data-testid="text"
+                >
+                  October 17, 1979
+                </span>
+              </div>
+            </div>
+            <h2
+              class="title"
+              data-testid="title"
+            >
+              <span
+                class="text size_xl bold"
+                data-testid="text"
+              >
+                Spanish Grand Prix
+              </span>
+            </h2>
+            <h6
+              class="caption hidden"
+              data-testid="caption"
+            >
+              <span
+                class="text size_s regular"
+                data-testid="text"
+              >
+                Circuit de Barcelona-Catalunya
+              </span>
+            </h6>
+          </div>
+          <div
+            class="headerControls"
+          >
+            <button
+              class="button icon-button"
+              data-testid="button"
+            >
+              <svg>
+                arrow.svg
+              </svg>
+            </button>
+          </div>
+        </header>
+        <hr
+          class="separator hidden"
+          data-testid="separator"
+        />
+        <section
+          class="content content_collapsed"
+        >
+          <div
+            class="flag"
+          >
+            <div
+              class="flag flag_s fi fi-nl"
+              data-testid="flag"
+            />
+          </div>
+          <div
+            class="info info_collapsed"
+          >
+            <div
+              class="winner hidden"
+            >
+              <h6
+                class="caption"
+                data-testid="caption"
+              >
+                <span
+                  class="text size_s regular"
+                  data-testid="text"
+                >
+                  Winner
+                </span>
+              </h6>
+            </div>
+            <div
+              class="driver"
+            >
+              <span
+                class="text size_l semibold"
+                data-testid="text"
+              >
+                Charles Leclerc
+              </span>
+            </div>
+          </div>
+          <div
+            class="stat"
+          >
+            <div
+              class="badge badge_m badge_style_primary badge_align_center"
+              data-testid="badge"
+            >
+              <div
+                class="team"
+              >
+                <span
+                  class="text size_s regular"
+                  data-testid="text"
+                >
+                  BMW
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer
+          class="footer hidden"
+        >
+          <div
+            class="badge badge_l badge_style_info badge_align_left"
+            data-testid="badge"
+          >
+            <h6
+              class="caption"
+              data-testid="caption"
+            >
+              <span
+                class="text size_s regular"
+                data-testid="text"
+              >
+                Time
+              </span>
+            </h6>
+            <span
+              class="text size_m regular"
+              data-testid="text"
+            >
+              12:34:34.765
+            </span>
+          </div>
+          <div
+            class="badge badge_l badge_style_info badge_align_left"
+            data-testid="badge"
+          >
+            <h6
+              class="caption"
+              data-testid="caption"
+            >
+              <span
+                class="text size_s regular"
+                data-testid="text"
+              >
+                Km/h
+              </span>
+            </h6>
+            <span
+              class="text size_m regular"
+              data-testid="text"
+            >
+              256.65
+            </span>
+          </div>
+          <div
+            class="badge badge_l badge_style_info badge_align_left"
+            data-testid="badge"
+          >
+            <h6
+              class="caption"
+              data-testid="caption"
+            >
+              <span
+                class="text size_s regular"
+                data-testid="text"
+              >
+                Points
+              </span>
+            </h6>
+            <span
+              class="text size_m regular"
+              data-testid="text"
+            >
+              256
+            </span>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </div>
+  <div
+    style="opacity: 1; transform: scale(1, 1); transition: opacity 5000ms cubic-bezier(0.4, 0, 0.2, 1) 0ms,transform 3330ms cubic-bezier(0.4, 0, 0.2, 1) 0ms;"
+  >
+    <section
+      class="card card_accent"
+      data-testid="card"
+    >
+      <div
+        class="content"
+      >
+        <header
+          class="header"
+        >
+          <div
+            class="header_info"
+          >
+            <div
+              class="round"
+            >
+              <div
+                class="badge badge_s badge_style_accent badge_align_center round_badge"
+                data-testid="badge"
+              >
+                <span
+                  class="text size_s regular"
+                  data-testid="text"
+                >
+                  Round 
+                  2
+                </span>
+                <span
+                  class="v_separator"
+                >
+                  |
+                </span>
+                <span
+                  class="text size_s regular"
+                  data-testid="text"
+                >
+                  October 17, 1979
+                </span>
+              </div>
+            </div>
+            <h2
+              class="title"
+              data-testid="title"
+            >
+              <span
+                class="text size_xl bold"
+                data-testid="text"
+              >
+                Spanish Grand Prix
+              </span>
+            </h2>
+            <h6
+              class="caption hidden"
+              data-testid="caption"
+            >
+              <span
+                class="text size_s regular"
+                data-testid="text"
+              >
+                Circuit de Barcelona-Catalunya
+              </span>
+            </h6>
+          </div>
+          <div
+            class="headerControls"
+          >
+            <button
+              class="button icon-button"
+              data-testid="button"
+            >
+              <svg>
+                arrow.svg
+              </svg>
+            </button>
+          </div>
+        </header>
+        <hr
+          class="separator hidden"
+          data-testid="separator"
+        />
+        <section
+          class="content content_collapsed"
+        >
+          <div
+            class="flag"
+          >
+            <div
+              class="flag flag_s fi fi-es"
+              data-testid="flag"
+            />
+          </div>
+          <div
+            class="info info_collapsed"
+          >
+            <div
+              class="winner hidden"
+            >
+              <h6
+                class="caption"
+                data-testid="caption"
+              >
+                <span
+                  class="text size_s regular"
+                  data-testid="text"
+                >
+                  Winner
+                </span>
+              </h6>
+            </div>
+            <div
+              class="driver"
+            >
+              <span
+                class="text size_l semibold"
+                data-testid="text"
+              >
+                Charles Leclerc
+              </span>
+            </div>
+          </div>
+          <div
+            class="stat"
+          >
+            <div
+              class="badge badge_m badge_style_primary badge_align_center"
+              data-testid="badge"
+            >
+              <div
+                class="team"
+              >
+                <span
+                  class="text size_s regular"
+                  data-testid="text"
+                >
+                  RED BULL
+                </span>
+              </div>
+            </div>
+          </div>
+        </section>
+        <footer
+          class="footer hidden"
+        >
+          <div
+            class="badge badge_l badge_style_info badge_align_left"
+            data-testid="badge"
+          >
+            <h6
+              class="caption"
+              data-testid="caption"
+            >
+              <span
+                class="text size_s regular"
+                data-testid="text"
+              >
+                Time
+              </span>
+            </h6>
+            <span
+              class="text size_m regular"
+              data-testid="text"
+            >
+              12:34:34.765
+            </span>
+          </div>
+          <div
+            class="badge badge_l badge_style_info badge_align_left"
+            data-testid="badge"
+          >
+            <h6
+              class="caption"
+              data-testid="caption"
+            >
+              <span
+                class="text size_s regular"
+                data-testid="text"
+              >
+                Km/h
+              </span>
+            </h6>
+            <span
+              class="text size_m regular"
+              data-testid="text"
+            >
+              256.65
+            </span>
+          </div>
+          <div
+            class="badge badge_l badge_style_info badge_align_left"
+            data-testid="badge"
+          >
+            <h6
+              class="caption"
+              data-testid="caption"
+            >
+              <span
+                class="text size_s regular"
+                data-testid="text"
+              >
+                Points
+              </span>
+            </h6>
+            <span
+              class="text size_m regular"
+              data-testid="text"
+            >
+              256
+            </span>
+          </div>
+        </footer>
+      </div>
+    </section>
+  </div>
+</div>
+`;

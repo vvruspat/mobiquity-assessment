@@ -49,6 +49,7 @@ export const Button = ({
       )}
       onClick={onButtonClick}
       {...buttonProps}
+      data-testid="button"
     >
       {children}
     </button>

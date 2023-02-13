@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders info badge 1`] = `
+<div
+  class="badge badge_l badge_style_info badge_align_left"
+  data-testid="badge"
+>
+  <h6
+    class="caption"
+    data-testid="caption"
+  >
+    <span
+      class="text size_s regular"
+      data-testid="text"
+    >
+      Info badge title
+    </span>
+  </h6>
+  <span
+    class="text size_m regular"
+    data-testid="text"
+  >
+    Info badge content
+  </span>
+</div>
+`;

@@ -23,7 +23,11 @@ export const Subtitle: FC<PropsWithChildren<SubtitleProps>> = ({
   ...htmlProps
 }) => {
   return (
-    <h4 className={cn(s.subtitle, className)} {...htmlProps}>
+    <h4
+      className={cn(s.subtitle, className)}
+      {...htmlProps}
+      data-testid="subtitle"
+    >
       <Text size="l" weight="semibold">
         {children}
       </Text>

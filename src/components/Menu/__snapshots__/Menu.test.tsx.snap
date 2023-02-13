@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders menu 1`] = `
+<div
+  class="menu"
+  data-testid="menu"
+  dir="ltr"
+>
+  <button
+    class="button primary-button menu_item"
+    data-testid="button"
+  >
+    1 text
+  </button>
+  <button
+    class="button outline-button menu_item"
+    data-testid="button"
+  >
+    2 text
+  </button>
+</div>
+`;

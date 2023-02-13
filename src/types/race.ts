@@ -2,8 +2,8 @@ import { Circuit } from "./circuit";
 import { RaceResult } from "./raceResult";
 
 export type Race = {
-  season: number;
-  round: number;
+  season: string;
+  round: string;
   url: string;
   raceName: string;
   Circuit: Circuit;

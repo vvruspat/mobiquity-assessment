@@ -19,7 +19,10 @@ export const Text: FC<PropsWithChildren<TextProps>> = ({
   weight = "regular",
 }) => {
   return (
-    <span className={cn(s.text, [s[`size_${size}`]], [s[weight]])}>
+    <span
+      className={cn(s.text, [s[`size_${size}`]], [s[weight]])}
+      data-testid="text"
+    >
       {children}
     </span>
   );

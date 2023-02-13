@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { fetchSeasonResults } from "../../api/Api";
-import { Header } from "../../components/UIKit/Header";
+import { Header } from "../../components/Header";
 import { RacesList } from "../../components/RacesList";
 import { WinnerCard } from "../../components/WinnerCard";
 import { useSeasonsStore } from "../../stores/seasons";

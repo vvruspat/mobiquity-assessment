@@ -7,7 +7,7 @@ export type Winner = {
 };
 
 export type RaceWinner = Omit<Winner, "year"> & {
-  round: number;
+  round: string;
   date: string;
   raceTitle: string;
   country: string;

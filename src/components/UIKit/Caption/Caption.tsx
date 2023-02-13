@@ -23,7 +23,11 @@ export const Caption: FC<PropsWithChildren<CaptionProps>> = ({
   ...htmlProps
 }) => {
   return (
-    <h6 className={cn(s.caption, className)} {...htmlProps}>
+    <h6
+      className={cn(s.caption, className)}
+      {...htmlProps}
+      data-testid="caption"
+    >
       <Text size="s" weight="regular">
         {children}
       </Text>

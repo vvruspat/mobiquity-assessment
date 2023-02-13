@@ -4,9 +4,10 @@ import {
   HTMLAttributes,
   PropsWithChildren,
 } from "react";
+import cn from "clsx";
+
 import { Text } from "../Text";
 
-import cn from "clsx";
 import s from "./Title.module.css";
 
 type TitleProps = DetailedHTMLProps<
@@ -23,7 +24,7 @@ export const Title: FC<PropsWithChildren<TitleProps>> = ({
   ...htmlProps
 }) => {
   return (
-    <h2 className={cn(s.title, className)} {...htmlProps}>
+    <h2 className={cn(s.title, className)} {...htmlProps} data-testid="title">
       <Text size="xl" weight="bold">
         {children}
       </Text>

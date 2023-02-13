@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders subtitle 1`] = `
+<h4
+  class="subtitle"
+  data-testid="subtitle"
+>
+  <span
+    class="text size_l semibold"
+    data-testid="text"
+  >
+    Test subtitle
+  </span>
+</h4>
+`;

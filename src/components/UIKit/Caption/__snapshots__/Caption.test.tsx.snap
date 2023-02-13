@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders caption 1`] = `
+<h6
+  class="caption"
+  data-testid="caption"
+>
+  <span
+    class="text size_s regular"
+    data-testid="text"
+  >
+    Test caption
+  </span>
+</h6>
+`;

@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders team badge 1`] = `
+<div
+  class="badge badge_m badge_style_primary badge_align_center"
+  data-testid="badge"
+>
+  <div
+    class="team"
+  >
+    <span
+      class="text size_s regular"
+      data-testid="text"
+    >
+      Red bull
+    </span>
+  </div>
+</div>
+`;

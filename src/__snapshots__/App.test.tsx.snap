@@ -10,6 +10,7 @@ exports[`renders learn react link 1`] = `
   >
     <header
       class="header"
+      data-testid="header"
     >
       <div
         class="header_content"
@@ -19,6 +20,7 @@ exports[`renders learn react link 1`] = `
         </svg>
         <button
           class="button icon-button theme_button"
+          data-testid="button"
         >
           <svg>
             dark.svg
@@ -27,6 +29,7 @@ exports[`renders learn react link 1`] = `
       </div>
       <div
         class="menu"
+        data-testid="menu"
         dir="ltr"
       />
     </header>
